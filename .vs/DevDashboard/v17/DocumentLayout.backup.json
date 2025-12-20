@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D58291DA-0BCA-4FC6-AF8E-9AA47B81AB3F}|DevDashboard.Shared\\DevDashboard.Shared.csproj|c:\\users\\rlaeh\\desktop\\\uC18C\uC2A4\uCF54\uB4DC\\devdashboard\\devdashboard.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D58291DA-0BCA-4FC6-AF8E-9AA47B81AB3F}|DevDashboard.Shared\\DevDashboard.Shared.csproj|solutionrelative:devdashboard.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B270144D-932E-4984-AFEA-C2B0EA20CDDA}|DevDashboard.Data\\DevDashboard.Data.csproj|c:\\users\\rlaeh\\desktop\\\uC18C\uC2A4\uCF54\uB4DC\\devdashboard\\devdashboard.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B270144D-932E-4984-AFEA-C2B0EA20CDDA}|DevDashboard.Data\\DevDashboard.Data.csproj|solutionrelative:devdashboard.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0853F17-26F6-4D19-BFCC-DA4086DC1DDB}|DevDashboard.Core\\DevDashboard.Core.csproj|c:\\users\\rlaeh\\desktop\\\uC18C\uC2A4\uCF54\uB4DC\\devdashboard\\devdashboard.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0853F17-26F6-4D19-BFCC-DA4086DC1DDB}|DevDashboard.Core\\DevDashboard.Core.csproj|solutionrelative:devdashboard.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\DevDashboard.Shared\\Class1.cs",
-              "RelativeDocumentMoniker": "DevDashboard.Shared\\Class1.cs",
-              "ToolTip": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\DevDashboard.Shared\\Class1.cs",
-              "RelativeToolTip": "DevDashboard.Shared\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T06:49:38.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\DevDashboard.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "DevDashboard.Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\DevDashboard.Data\\Class1.cs",
-              "RelativeToolTip": "DevDashboard.Data\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T06:49:12.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\DevDashboard.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "DevDashboard.Core\\Class1.cs",
-              "ToolTip": "C:\\Users\\rlaeh\\Desktop\\\uC18C\uC2A4\uCF54\uB4DC\\DevDashboard\\DevDashboard.Core\\Class1.cs",
-              "RelativeToolTip": "DevDashboard.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T06:48:50.137Z",
-              "EditorCaption": ""
             }
           ]
         }
