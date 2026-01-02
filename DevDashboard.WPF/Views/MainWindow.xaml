@@ -1,0 +1,59 @@
+﻿<Window x:Class="DevDashboard.WPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:DevDashboard.WPF.ViewModels"
+        xmlns:views="clr-namespace:DevDashboard.WPF.Views"
+        Title="{Binding Title}" 
+        Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:ProblemListViewModel}">
+            <views:ProblemListView/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar -->
+        <Border Grid.Column="0" Background="#2D2D30">
+            <StackPanel Margin="8">
+                <TextBlock Text="메뉴" 
+                           FontSize="18" 
+                           FontWeight="Bold" 
+                           Foreground="White" 
+                           Margin="8,8,8,16"/>
+
+                <Button Content="문제 목록" 
+                        Command="{Binding ShowProblemListCommand}"
+                        Margin="4" 
+                        Padding="12,8"/>
+
+                <Button Content="풀이 기록" 
+                        Margin="4" 
+                        Padding="12,8"/>
+
+                <Button Content="통계" 
+                        Margin="4" 
+                        Padding="12,8"/>
+
+                <Button Content="설정" 
+                        Margin="4" 
+                        Padding="12,8"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Main Content -->
+        <Border Grid.Column="1" Background="#1E1E1E">
+            <ContentControl Content="{Binding CurrentView}" Margin="16"/>
+        </Border>
+    </Grid>
+</Window>
