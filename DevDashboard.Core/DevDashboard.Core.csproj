@@ -41,13 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IProblemService.cs" />
+    <Compile Include="Interfaces\ISolutionService.cs" />
     <Compile Include="Models\ProblemDto.cs" />
     <Compile Include="Models\SolutionDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ProblemService.cs" />
+    <Compile Include="Services\SolutionService.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\DevDashboard.Data\DevDashboard.Data.csproj">
+      <Project>{B270144D-932E-4984-AFEA-C2B0EA20CDDA}</Project>
+      <Name>DevDashboard.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
