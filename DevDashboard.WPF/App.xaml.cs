@@ -26,8 +26,12 @@ namespace DevDashboard.WPF
         {
             base.OnStartup(e);
 
-            // 의존성 초기화
+            // SQLite 초기화 (필수!)
+            SQLitePCL.Batteries.Init();
+
             DbContext = new AppDbContext();
+            DbContext.Database.CreateIfNotExists();
+
             ProblemRepository = new ProblemRepository(DbContext);
             SolutionRepository = new SolutionRepository(DbContext);
             ProblemService = new ProblemService(ProblemRepository);
